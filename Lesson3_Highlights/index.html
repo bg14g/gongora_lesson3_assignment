@@ -77,11 +77,19 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://axceptmedia.com/axwp/wp-content/uploads/2011/04/iStock_000011984703XSmall-420x210.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" 
+            src="http://axceptmedia.com/axwp/wp-content/uploads/2011/04/iStock_000011984703XSmall-420x210.jpg">
             <h2 class="featurette-heading">Version Control System
                <br> <span class="text-muted">Definition</span></br>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Version control is a system that records changes to a file or set of 
+            files over time so that you can recall specific versions later. Version control also
+            known as revision control is associated with a timestamp and the person making the 
+            change. Revisions can be compared, restored and sometimes merged together. A Version
+            Control System is a very wise thing to use if you are a graphic or web designer as it
+            allows you to revert files back to a previous state and makes the files easily recoverable 
+            if you were to lose the files and also makes it easier for a group of developers to work together
+            easily.</p>
         </div>
 
         <hr class="featurette-divider">
@@ -92,7 +100,14 @@
             <h2 class="featurette-heading">Git
                 <br><span class="text-muted">Definition</span></br>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is a free and open source distributed version control system created 
+            by Linus Torvalds in 2005. It is designed to manage everything from small to very large 
+            projects with speed and efficiency. Git is a source code management system.  It takes a
+            "peer-to-peer" approach to version control as opposed to a "Client-Server" approach like 
+            version control systems like Subversion Git allows a team of people to work together, all 
+            using the same files helping the team manage with the confusion that tends to happen when 
+            multiple people are editing the same files. Git allows you access to all versions of all 
+            files in Git repository at any time, it’s almost impossible to lose any part of a code.</p>
         </div>
 
         <hr class="featurette-divider">
@@ -103,7 +118,15 @@
             <h2 class="featurette-heading">Git Repository
                <br> <span class="text-muted">Definition</span></br>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git stores this information in a data structure called a repository. A Git
+            repository contains, among other things, the following: A set of commits objects and a set
+            of references to commit objects, called heads. The Git repository is stored in the same 
+            directory as the project itself, in a subdirectory called <em> git. </em>. In order to 
+            create a repository, create a directory for the project if it doesn’t exist, enter it, and 
+            run the command “git init’. Then you must create a commit, in order to do so you first need 
+            to tell Git which files to include, with “git add .” .  then call “git commit” to create the
+            commit. Once you are done creating a commit you will want to push to file to a remote repository ,
+            to do so type the command “git push “.</p>
         </div>
         
         <hr class="featurette-divider">
@@ -114,18 +137,82 @@
             <h2 class="featurette-heading">GitHub
                <br> <span class="text-muted">Definition</span></br>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead"> GitHub is a web-based Git repository hosting service that offers all 
+            of the distributed revision control and source code management. The trademark mascot
+            of GitHub is Octocat, an anthropomorphized cat with octopus limbs, done in a manga style.
+            Unlike Git, which is strictly a command-line tool, GitHub provides a web-based graphical
+            interface and desktop as well as mobile integration. It allows you access control and 
+            several features such as feature requests, task management, wikis and bug tracking for
+            every project. In addition to source code, GitHub supports the following formats and 
+            features: 
+                    <ol>Pull requests with code review and comments</ol>
+                    <ol> Documentation, including automatically-rendered README files in a variety of markdown-like file formats.</ol>
+                    <ol>Commits history</ol>
+                    <ol>Issue tracking with labels, assignees and a search engine</ol>
+            </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://www.tangowithdjango.com/book17/_images/git-sequence.svg" height="100" >
-            <h2 class="featurette-heading">Git Basic Commands
-                <span class="text-muted">Definition</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <img class="featurette-image img-circle img-responsive pull-right" src="https://lh6.ggpht.com/ir1RrwnPwJ7sDiv8PmmHWHRcmJAyKm_Kjs7WRGCCmKI7CX4U4dvoGbNwvpo5dWWVALk0=w300"   >
+            <h2 class="featurette-heading">Basic Git Commands </h2>
+            <p class="lead">
+    <table>
+        <tr>
+            <th>Git task</th>
+            <th>Notes</th>
+            <th>Git Command</th>
+        </tr>
+        
+        <br>
+        <tr>
+          <td >Tell Git who you are </td>
+          <td>Configure the author name and email address to be used with your commits.</td>
+          <td>git config --global user.name "Bryan Gongora"
+git config --global user.email bryan@example.com</td>
+        </tr>
+    
+      <br>
+      <tr>
+          <td>Create a new local repository</td>
+          <td> </td>
+          <td> git init</td>
+        </tr>
+        <br>
+
+        <tr>
+          <td>Check out a repository</td>
+          <td>For a remote server, use: </td>
+          <td>git clone username@host:/path/to/repository</td>
+        </tr>
+      <br>
+        <tr>
+          <td> Add files</td>
+          <td>Add one or more files to staging (index): </td>
+          <td>git add *<br> git add ( file name )</td>
+        </tr>
+       <br>
+        <tr>
+          <td>Commit</td>
+          <td>Commit changes to head (but not yet to the remote repository):</td>
+          <td>git commit -m "message"</td>
+        </tr>
+        <br>
+        <tr>
+          <td>Push</td>
+          <td>Send changes to the master branch of your remote repository:</td>
+          <td>git push origin master</td>
+        </tr>
+        <br>
+        <tr>
+          <td>Status</td>
+          <td>List the files you've changed and those you still need to add or commit:</td>
+          <td>git status</td>
+        </tr>
+        
+    </table></p>
         </div>
 
         <hr class="featurette-divider">
